@@ -1,0 +1,35 @@
+{
+  "name": "tagnoteserver",
+  "version": "0.0.1",
+  "description": "api using hapi knex",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiomotta0311/tagnoteserver.git"
+  },
+  "keywords": [
+    "comment",
+    "tag",
+    "api"
+  ],
+  "author": "Fabio Motta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fabiomotta0311/tagnoteserver/issues"
+  },
+  "homepage": "https://github.com/fabiomotta0311/tagnoteserver#readme",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "dotenv": "^8.2.0",
+    "knex": "^0.21.1",
+    "pg": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "nodemon": "^2.0.4"
+  }
+}
